@@ -146,6 +146,14 @@ document.addEventListener("paste", e => e.preventDefault());
 
 // Fullscreen
 document.documentElement.requestFullscreen();
+ function changeQuestions(){
+
+ document.querySelectorAll("p")[1].innerText = "1. 10 + 5 = ?";
+ document.querySelectorAll("p")[2].innerText = "2. Capital of USA?";
+ document.querySelectorAll("p")[3].innerText = "3. 8 x 2 = ?";
+
+ alert("Questions changed!");
+ }
 </script>
 
 </body>
